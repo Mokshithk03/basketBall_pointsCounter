@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="points-board">
+        <div class="sections">
+            <h1>HOME</h1>
+            <p id="home-display">0</p>
+            <div class="button-section">
+                <button onclick="increment1ToHome()">+1</button>
+                <button onclick="increment2ToHome()">+2</button>
+                <button onclick="increment3ToHome()">+3</button>
+            </div>
+        </div>
+        <div class="sections">
+            <h1>GUEST</h1>
+            <p id="guest-display">0</p>
+            <div class="button-section">
+                <button onclick="increment1ToGuest()">+1</button>
+                <button onclick="increment2ToGuest()">+2</button>
+                <button onclick="increment3ToGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
